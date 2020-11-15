@@ -1,1 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
+.primary-background {
+    background-image: linear-gradient(to left,#141414, #1b1b1b);
+}
+
+.secondary-background {
+    background-color: #1b1b1b;
+}
+
+.primary-font {
+    color: #e3e2e3;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+}
+
+.secondary-font {
+    color: #bb86fc;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.monospace {
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+.left-border {
+    border-width: thin;
+    border-left-style: solid;
+    border-left-color: #e3e2e3;
+}
+
+.right-border {
+    border-width: thin;
+    border-right-style: solid;
+    border-right-color: #e3e2e3;
+}
+
+.bottom-border {
+    border-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: #e3e2e3;
+}
+
+a {
+    color: #D3D3D3;
+    cursor: pointer;
+}

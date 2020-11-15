@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="row center">
+        <a (click)="changeTab(fContentType.MOVIE)" [class.bottom-border]="selectedContentType==fContentType.MOVIE"
+            [class.underline-menu-color]="selectedContentType==fContentType.MOVIE" class="col-4 right-border">Movies</a>
+        <a (click)="changeTab(fContentType.MUSIC)" [class.bottom-border]="selectedContentType==fContentType.MUSIC"
+            [class.underline-menu-color]="selectedContentType==fContentType.MUSIC" class="col-4 right-border">Musics</a>
+        <a (click)="changeTab(fContentType.BOOK)" [class.bottom-border]="selectedContentType==fContentType.BOOK"
+            [class.underline-menu-color]="selectedContentType==fContentType.BOOK" class="col-4">Books</a>
+    </div>
+</div>
