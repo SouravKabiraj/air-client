@@ -1,3 +1,9 @@
 .underline-menu-color {
     border-bottom-color: #393838;
 }
+
+.content-type:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+}
