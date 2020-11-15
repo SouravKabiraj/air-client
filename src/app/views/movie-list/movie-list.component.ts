@@ -10,8 +10,8 @@ export class MovieListComponent implements OnInit {
   movies: Movie[];
   constructor() {
     this.movies = [
-      new Movie("001", "War", "./../../../../thumbnails/war.jpg"),
-      new Movie("002", "Skyfall", "./../../../../thumbnails/war.jpg")
+      new Movie("001", "War", "assets/thumbnails/war.jpg"),
+      new Movie("002", "Skyfall", "assets/thumbnails/skyfall.webp")
     ];
   }
 

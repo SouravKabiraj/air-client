@@ -14,7 +14,7 @@ export class MovieCardComponent implements OnInit {
 
   ngOnInit(): void {
     if (this.movie == undefined) {
-      this.movie = new Movie("001", "NA", "./../../../../thumbnails/war.jpg");
+      this.movie = new Movie("", "NA", "");
     }
   }
 

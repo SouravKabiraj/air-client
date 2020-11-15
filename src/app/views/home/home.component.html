@@ -8,4 +8,4 @@
             [class.underline-menu-color]="selectedContentType==fContentType.BOOK" class="col-4">Books</a>
     </div>
 </div>
-<app-movie-list></app-movie-list>
+<app-movie-list *ngIf="selectedContentType==fContentType.MOVIE"></app-movie-list>
